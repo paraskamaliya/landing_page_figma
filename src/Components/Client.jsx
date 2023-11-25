@@ -7,9 +7,9 @@ import people from "../assets/member.png"
 import building from "../assets/build.png"
 import hand from "../assets/hands.png"
 const Client = () => {
-    return <div>
-        <h1 className="text-4xl font-medium text-D_grey m-2">Our Clients</h1>
-        <p className="text-md text-L_grey">We have been working with some Fortune 500+ clients</p>
+    return <div className="w-[100%]">
+        <h1 className="text-4xl font-medium text-D_grey m-2 text-center">Our Clients</h1>
+        <p className="text-md text-L_grey text-center">We have been working with some Fortune 500+ clients</p>
         <div className="flex align-middle justify-around m-10">
             <div>
                 <img src={logo1} alt="" />
@@ -30,9 +30,9 @@ const Client = () => {
                 <img src={logo3} alt="" />
             </div>
         </div>
-        <h1 className="text-4xl font-medium text-D_grey m-2">Manage your entire community</h1>
-        <h1 className="text-4xl font-medium text-D_grey m-2">in a single system</h1>
-        <p className="text-md text-L_grey">Who is Nextcent suitable for?</p>
+        <h1 className="text-4xl font-medium text-D_grey m-2 text-center">Manage your entire community</h1>
+        <h1 className="text-4xl font-medium text-D_grey m-2 text-center">in a single system</h1>
+        <p className="text-md text-L_grey text-center">Who is Nextcent suitable for?</p>
         <div className="flex justify-evenly align-middle text-center m-[2%] w-[100%] gap-[5%]">
             <div className="w-[25%] p-[2%] shadow-md rounded">
                 <img src={people} alt="" className="m-auto w-30" />
